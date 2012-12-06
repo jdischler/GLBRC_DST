@@ -1,0 +1,31 @@
+{
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "selectionModification",
+        "storeId": "MyStore1",
+        "data": "[ \n    {type: 'Add to'},\n    {type: 'Subtraction from '}\n]"
+    },
+    "id": "ExtBox1-ext-gen9078",
+    "designerId": "7464d075-d704-40a0-a5aa-7135f63347d6",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field6",
+                "name": "type",
+                "type": "string"
+            },
+            "designerId": "9ff4d915-d805-4ef8-a04a-9047975396d4"
+        }
+    ]
+}

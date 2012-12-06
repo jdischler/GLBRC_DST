@@ -1,0 +1,201 @@
+{
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "TransformationTools",
+        "designer|userAlias": "transformationtools",
+        "designer|displayName": "Transformation Tools",
+        "height": 200,
+        "maxWidth": null,
+        "width": 300,
+        "title": "Transformation Tools",
+        "titleAlign": "center",
+        "activeTab": 0
+    },
+    "id": "ExtBox1-ext-gen11310",
+    "designerId": "b0f90634-b08e-4c36-b0e7-5024e95d08d9",
+    "cn": [
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel7",
+                "padding": null,
+                "bodyPadding": 10,
+                "title": "New Land Cover"
+            },
+            "designerId": "7d7b78c4-2d2e-4bc3-b617-cfbd03b07aea",
+            "cn": [
+                {
+                    "type": "tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig5"
+                    },
+                    "designerId": "ace60d7b-cf6c-4f95-8d92-ab39f4282d0d"
+                },
+                {
+                    "type": "checkboxgroup",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyCheckboxGroup1",
+                        "width": 400,
+                        "fieldLabel": null,
+                        "columns": [
+                            "1"
+                        ],
+                        "vertical": true
+                    },
+                    "designerId": "4c0d032b-fba1-4047-9447-9a31feb686f1",
+                    "cn": [
+                        {
+                            "type": "checkboxfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyCheckbox6",
+                                "designer|displayName": "Corn_Soy",
+                                "fieldLabel": null,
+                                "boxLabel": "Corn / Soy"
+                            },
+                            "designerId": "18c3b3ee-0d6d-49fa-8bdf-7f426a34a0a8"
+                        },
+                        {
+                            "type": "checkboxfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyCheckbox7",
+                                "designer|displayName": "Switchgrass",
+                                "fieldLabel": null,
+                                "boxLabel": "Switchgrass"
+                            },
+                            "designerId": "c2f5f087-22b7-4ad4-ac77-77d70796fe80"
+                        },
+                        {
+                            "type": "checkboxfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyCheckbox7",
+                                "designer|displayName": "Miscanthus",
+                                "fieldLabel": null,
+                                "boxLabel": "Miscanthus"
+                            },
+                            "designerId": "fad41a98-fcc5-46f9-909c-34a249e369ca"
+                        }
+                    ]
+                },
+                {
+                    "type": "toolbar",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "bottom",
+                        "designer|userClassName": "MyToolbar2"
+                    },
+                    "designerId": "6ec438c2-892f-4b58-9a33-7ad92c301903",
+                    "cn": [
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "designer|userClassName": "MyButton4",
+                                "text": "Apply"
+                            },
+                            "designerId": "bdb3cd58-1d69-4850-a47d-fba5e086f912"
+                        },
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "designer|userClassName": "MyButton4",
+                                "text": "Revert"
+                            },
+                            "designerId": "285ab973-0265-404b-9c09-2b05f62e3256"
+                        },
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "designer|userClassName": "MyButton4",
+                                "text": "Save"
+                            },
+                            "designerId": "87c190f9-1b6d-4db1-977b-07c64ebe10b7"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel8",
+                "title": "Options"
+            },
+            "designerId": "3bb0d700-da20-431c-90ab-4ad9ed323c87",
+            "cn": [
+                {
+                    "type": "tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig6"
+                    },
+                    "designerId": "c420d5ef-4eb6-4079-8639-2f462c134fba"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "landCoverTypes",
+        "storeId": "MyStore",
+        "data": "[ \n    {type: 'Land Cover'},\n    {type: 'Water'},\n    {type: 'Urban'}\n]"
+    },
+    "id": "ExtBox1-ext-gen6467",
+    "designerId": "24588254-64b7-4a0b-9ecf-dc6a8491a482",
+    "cn": [
+        {
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "field6",
+                "name": "type",
+                "type": "string"
+            },
+            "designerId": "f03f3780-f225-4686-b187-772bfd44b4aa"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "stores": [
+            "store1",
+            "landCoverTypes",
+            "selectionModification"
+        ],
+        "views": [
+            "InfoToolbar",
+            "MainViewport",
+            "MainToolbar",
+            "SelectionTools",
+            "ViewTools",
+            "TransformationTools",
+            "ManagementTools",
+            "EvaluationTools",
+            "GraphTools"
+        ],
+        "autoCreateViewport": true,
+        "name": "MyApp"
+    },
+    "id": "ExtBox1-ext-gen47130",
+    "designerId": "application"
+}

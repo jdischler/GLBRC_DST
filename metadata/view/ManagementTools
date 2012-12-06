@@ -1,0 +1,94 @@
+{
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ManagementTools",
+        "designer|userAlias": "managementtools",
+        "height": 200,
+        "maxHeight": null,
+        "maxWidth": null,
+        "minHeight": null,
+        "width": 300,
+        "title": "Management Tools",
+        "titleAlign": "center",
+        "activeTab": 0
+    },
+    "id": "ExtBox1-ext-gen34745",
+    "designerId": "13dd80e3-8d37-427b-bcfe-b2a9d4f1d339",
+    "cn": [
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel9",
+                "bodyPadding": 10,
+                "title": "Management"
+            },
+            "designerId": "63959582-128a-4eb4-b959-c4ff34788cee",
+            "cn": [
+                {
+                    "type": "tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig7"
+                    },
+                    "designerId": "28d0b8bd-0b90-4f64-aebc-edc80dfc8929"
+                },
+                {
+                    "type": "combobox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyComboBox6",
+                        "fieldLabel": null,
+                        "store": "store1"
+                    },
+                    "designerId": "bcd49b68-f6f1-4d73-99d3-f1d6b287cd88"
+                }
+            ]
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel10",
+                "bodyPadding": 10,
+                "title": "Properties"
+            },
+            "designerId": "eb4f7404-19b2-44d0-9f66-a8b63c3713e2",
+            "cn": [
+                {
+                    "type": "tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig8"
+                    },
+                    "designerId": "39ad9175-57af-4567-96a2-d0b5f83a03a8"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,226 @@
+{
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ViewTools",
+        "designer|userAlias": "viewtools",
+        "designer|displayName": "View Tools",
+        "height": 210,
+        "maxHeight": null,
+        "maxWidth": null,
+        "width": 300,
+        "collapsed": false,
+        "title": "View Tools",
+        "titleAlign": "center",
+        "activeTab": 0
+    },
+    "id": "ExtBox1-ext-gen5305",
+    "designerId": "5e3bc601-5684-4f81-929e-9bb70e27ac4e",
+    "cn": [
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel4",
+                "autoRender": true,
+                "padding": 10,
+                "title": "Visible Layers"
+            },
+            "designerId": "340b8161-8f96-465b-9ebb-850d25354f7b",
+            "cn": [
+                {
+                    "type": "tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig2",
+                        "minWidth": 100
+                    },
+                    "designerId": "09d596e9-5287-43a9-ab0c-e0d4756e3a87"
+                },
+                {
+                    "type": "checkboxgroup",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyCheckboxGroup",
+                        "height": 131,
+                        "padding": null,
+                        "width": null,
+                        "autoScroll": true,
+                        "fieldLabel": null,
+                        "labelPad": null,
+                        "columns": [
+                            "1",
+                            ""
+                        ],
+                        "vertical": true
+                    },
+                    "designerId": "e8d19122-c5de-42b7-98c8-052faee7f72a",
+                    "cn": [
+                        {
+                            "type": "checkboxfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyCheckbox",
+                                "designer|displayName": "Aerial Photo",
+                                "fieldLabel": null,
+                                "boxLabel": "Aerial Photo"
+                            },
+                            "designerId": "1b8428b3-b31a-46ca-9302-1f81d2672988"
+                        },
+                        {
+                            "type": "checkboxfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyCheckbox1",
+                                "designer|displayName": "Land Cover",
+                                "fieldLabel": null,
+                                "boxLabel": "Land Cover"
+                            },
+                            "designerId": "68439aab-16c6-48a0-b2dc-d8e27435a5ea"
+                        },
+                        {
+                            "type": "checkboxfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyCheckbox1",
+                                "designer|displayName": "Selected Area",
+                                "fieldLabel": null,
+                                "boxLabel": "Selected Area"
+                            },
+                            "designerId": "4ae710d6-18f8-4165-88ff-5eb8686c6081"
+                        },
+                        {
+                            "type": "checkboxfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyCheckbox1",
+                                "designer|displayName": "Water Features",
+                                "fieldLabel": null,
+                                "boxLabel": "Water Features"
+                            },
+                            "designerId": "23c58dd1-bdc5-418d-893c-3d7857604b5b"
+                        },
+                        {
+                            "type": "checkboxfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyCheckbox1",
+                                "designer|displayName": "Urban",
+                                "fieldLabel": null,
+                                "boxLabel": "Urban"
+                            },
+                            "designerId": "81b2d813-5241-489d-ba5c-78701daefbcd"
+                        },
+                        {
+                            "type": "checkboxfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyCheckbox1",
+                                "designer|displayName": "Farmland",
+                                "fieldLabel": null,
+                                "boxLabel": "Farmland"
+                            },
+                            "designerId": "a42527cf-bdff-414c-aebd-693210fa9bae"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel5",
+                "title": "Properties"
+            },
+            "designerId": "e74aba6e-d962-4e19-bf38-1680f21e1a80",
+            "cn": [
+                {
+                    "type": "tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig3",
+                        "minWidth": 90
+                    },
+                    "designerId": "46519ddd-9e29-492d-b708-92e631b83d50"
+                }
+            ]
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel6",
+                "title": "Keys"
+            },
+            "designerId": "36729733-1b3e-4a0c-b18b-8f7ad4b2c6b4",
+            "cn": [
+                {
+                    "type": "tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig4",
+                        "minWidth": 75
+                    },
+                    "designerId": "7e8834d7-2dcc-4293-b12a-68d68a1e657f"
+                }
+            ]
+        }
+    ]
+}

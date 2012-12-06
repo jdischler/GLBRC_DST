@@ -1,0 +1,316 @@
+{
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "EvaluationTools",
+        "designer|userAlias": "evaluationtools",
+        "height": 300,
+        "width": 300,
+        "title": "Evaluation Tools",
+        "titleAlign": "center",
+        "activeTab": 0
+    },
+    "id": "ExtBox1-ext-gen45237",
+    "designerId": "399da94d-dfef-4ef1-8ff1-0e488d0fcf78",
+    "cn": [
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel13",
+                "width": null,
+                "title": "Outcomes"
+            },
+            "designerId": "206c0e7d-32d6-4ec7-bbfe-80cf08f16f86",
+            "cn": [
+                {
+                    "type": "tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig9"
+                    },
+                    "designerId": "87c2f215-cebe-4665-b956-dea97c092619"
+                },
+                {
+                    "type": "chart",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": null,
+                        "designer|userClassName": "GaugeChart1",
+                        "designer|displayName": "chart 1",
+                        "data": [
+                            "data"
+                        ],
+                        "height": 100,
+                        "width": 125,
+                        "animate": [
+                            "true"
+                        ],
+                        "insetPadding": 30,
+                        "store": "store1"
+                    },
+                    "designerId": "483908e8-97e8-4f00-a6b3-aeeeb033e94d",
+                    "cn": [
+                        {
+                            "type": "gaugeaxis",
+                            "reference": {
+                                "name": "axes",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGaugeAxis",
+                                "margin": 8,
+                                "maximum": 100,
+                                "minimum": 0,
+                                "steps": 4
+                            },
+                            "designerId": "5cba34f3-b871-4990-98b7-0e4d9510d365"
+                        },
+                        {
+                            "type": "gaugeseries",
+                            "reference": {
+                                "name": "series",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGaugeSeries",
+                                "title": [
+                                    "'Title'"
+                                ],
+                                "angleField": "data1",
+                                "donut": 60,
+                                "needle": false
+                            },
+                            "designerId": "af97f26b-591a-49c2-9d55-719774777c20"
+                        }
+                    ]
+                },
+                {
+                    "type": "chart",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": null,
+                        "designer|userClassName": "GaugeChart1",
+                        "designer|displayName": "chart 2",
+                        "data": [
+                            "data"
+                        ],
+                        "height": 100,
+                        "width": 125,
+                        "animate": [
+                            "true"
+                        ],
+                        "insetPadding": 30,
+                        "store": "store1"
+                    },
+                    "designerId": "399f2174-b4d6-420a-b0ac-b41a9a61af29",
+                    "cn": [
+                        {
+                            "type": "gaugeaxis",
+                            "reference": {
+                                "name": "axes",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGaugeAxis",
+                                "margin": 8,
+                                "maximum": 100,
+                                "minimum": 0,
+                                "steps": 4
+                            },
+                            "designerId": "a6980caa-3767-406d-a4cd-2deba507bd5c"
+                        },
+                        {
+                            "type": "gaugeseries",
+                            "reference": {
+                                "name": "series",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGaugeSeries",
+                                "title": [
+                                    "'Title'"
+                                ],
+                                "angleField": "data2",
+                                "donut": 60,
+                                "needle": false
+                            },
+                            "designerId": "1369b822-b917-4166-82ef-9c6e71b9671f"
+                        }
+                    ]
+                },
+                {
+                    "type": "chart",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": null,
+                        "designer|userClassName": "GaugeChart1",
+                        "designer|displayName": "chart 3",
+                        "data": [
+                            "data"
+                        ],
+                        "height": 100,
+                        "width": 125,
+                        "animate": [
+                            "true"
+                        ],
+                        "insetPadding": 30,
+                        "store": "store1"
+                    },
+                    "designerId": "30dd0d60-2a8d-481c-a77f-37bfec4e1c48",
+                    "cn": [
+                        {
+                            "type": "gaugeaxis",
+                            "reference": {
+                                "name": "axes",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGaugeAxis",
+                                "margin": 8,
+                                "maximum": 100,
+                                "minimum": 0,
+                                "steps": 4
+                            },
+                            "designerId": "cd5bfd5a-c5ec-4a8a-a565-e157bd8b6138"
+                        },
+                        {
+                            "type": "gaugeseries",
+                            "reference": {
+                                "name": "series",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGaugeSeries",
+                                "title": [
+                                    "'Title'"
+                                ],
+                                "angleField": "data3",
+                                "donut": 60,
+                                "needle": false
+                            },
+                            "designerId": "bea11c5e-1b11-4c38-a61e-490816436e37"
+                        }
+                    ]
+                },
+                {
+                    "type": "chart",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": null,
+                        "designer|userClassName": "GaugeChart1",
+                        "designer|displayName": "chart 4",
+                        "data": [
+                            "data"
+                        ],
+                        "height": 100,
+                        "width": 125,
+                        "animate": [
+                            "true"
+                        ],
+                        "insetPadding": 30,
+                        "store": "store1"
+                    },
+                    "designerId": "f9370c41-27ad-4a67-b3c6-2f85d466ecf2",
+                    "cn": [
+                        {
+                            "type": "gaugeaxis",
+                            "reference": {
+                                "name": "axes",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGaugeAxis",
+                                "margin": 8,
+                                "maximum": 100,
+                                "minimum": 0,
+                                "steps": 4
+                            },
+                            "designerId": "088b20af-fbd1-440f-8727-cfcf5e9e5669"
+                        },
+                        {
+                            "type": "gaugeseries",
+                            "reference": {
+                                "name": "series",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGaugeSeries",
+                                "title": [
+                                    "'Title'"
+                                ],
+                                "angleField": "data4",
+                                "donut": 60,
+                                "needle": false
+                            },
+                            "designerId": "bc13cf3a-b9f6-434a-b7cc-a2b04ced5d9e"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel14",
+                "title": "Assumptions"
+            },
+            "designerId": "7af6c92c-64ab-4962-a177-d3e90cff4447",
+            "cn": [
+                {
+                    "type": "tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig10"
+                    },
+                    "designerId": "4859abf2-daca-4eb8-9441-e070cf0a6625"
+                }
+            ]
+        }
+    ]
+}

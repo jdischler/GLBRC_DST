@@ -1,0 +1,255 @@
+{
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SelectionTools",
+        "designer|userAlias": "selectiontools",
+        "height": 200,
+        "maxHeight": null,
+        "maxWidth": null,
+        "width": 300,
+        "title": "Selection Tools",
+        "titleAlign": "center",
+        "activeTab": 0
+    },
+    "id": "ExtBox1-ext-gen20105",
+    "designerId": "2b3c287c-c24d-405c-a81b-add5fd810c4c",
+    "cn": [
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel2",
+                "minWidth": null,
+                "minButtonWidth": null,
+                "title": "Query",
+                "titleAlign": "center"
+            },
+            "designerId": "67f354a1-4cc6-4e75-93ef-5e8c1df09303",
+            "cn": [
+                {
+                    "type": "tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig",
+                        "minWidth": 75,
+                        "arrowAlign": null,
+                        "scale": null,
+                        "textAlign": null
+                    },
+                    "designerId": "e57baff2-a0e6-47df-80db-ecf4827b9716"
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "container|padding": 5,
+                        "designer|userClassName": "MyContainer",
+                        "layout": "hbox"
+                    },
+                    "designerId": "67378a9b-5960-40ff-af1b-77451347da4f",
+                    "cn": [
+                        {
+                            "type": "combobox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "designer|userClassName": "MyComboBox",
+                                "designer|displayName": "Land Cover",
+                                "frame": false,
+                                "maxWidth": 140,
+                                "padding": 5,
+                                "value": null,
+                                "fieldLabel": null,
+                                "allowBlank": false,
+                                "displayField": "type",
+                                "forceSelection": true,
+                                "store": "landCoverTypes"
+                            },
+                            "designerId": "99fcae0f-9369-4766-9da5-e04bb39e455a"
+                        },
+                        {
+                            "type": "combobox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "designer|userClassName": "MyComboBox",
+                                "designer|displayName": "Mode",
+                                "frame": false,
+                                "maxWidth": 140,
+                                "padding": 5,
+                                "fieldLabel": null,
+                                "allowBlank": false,
+                                "displayField": "type",
+                                "forceSelection": true,
+                                "store": "selectionModification"
+                            },
+                            "designerId": "288d0fa9-697d-4568-bdc1-69ddf5a72460"
+                        }
+                    ]
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "designer|userClassName": "MyContainer",
+                        "layout": "hbox"
+                    },
+                    "designerId": "5c7e01f7-cd32-415f-8b17-edad97173f57",
+                    "cn": [
+                        {
+                            "type": "combobox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "designer|userClassName": "MyComboBox",
+                                "designer|displayName": "Land Cover",
+                                "frame": false,
+                                "maxWidth": 140,
+                                "padding": 5,
+                                "fieldLabel": null,
+                                "store": "store1"
+                            },
+                            "designerId": "26a75fa9-a892-4659-bab1-a61212355206"
+                        },
+                        {
+                            "type": "combobox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "designer|userClassName": "MyComboBox",
+                                "designer|displayName": "Mode",
+                                "frame": false,
+                                "maxWidth": 140,
+                                "padding": 5,
+                                "fieldLabel": null,
+                                "store": "store1"
+                            },
+                            "designerId": "7d40db98-ba2b-4c34-871e-2146c6ccb45b"
+                        }
+                    ]
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "designer|userClassName": "MyContainer",
+                        "layout": "hbox"
+                    },
+                    "designerId": "1b88299c-2cae-425c-95c2-48d5fd7c2f63",
+                    "cn": [
+                        {
+                            "type": "combobox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "designer|userClassName": "MyComboBox",
+                                "designer|displayName": "Land Cover",
+                                "frame": false,
+                                "maxWidth": 140,
+                                "padding": 5,
+                                "fieldLabel": null,
+                                "store": "store1"
+                            },
+                            "designerId": "dc850e39-df95-479d-8bba-f34246c6df54"
+                        },
+                        {
+                            "type": "combobox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "designer|userClassName": "MyComboBox",
+                                "designer|displayName": "Mode",
+                                "frame": false,
+                                "maxWidth": 140,
+                                "padding": 5,
+                                "fieldLabel": null,
+                                "store": "store1"
+                            },
+                            "designerId": "f5435937-5343-4d5a-b084-aaa9cbe78b44"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel3",
+                "title": "Manual"
+            },
+            "designerId": "f5310a72-fef7-41e5-9927-fd961ccd92c6",
+            "cn": [
+                {
+                    "type": "tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig1",
+                        "minWidth": 75
+                    },
+                    "designerId": "180c15a3-5c1a-436a-b41c-f779d0fbc3e2"
+                }
+            ]
+        }
+    ]
+}

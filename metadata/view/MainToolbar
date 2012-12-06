@@ -1,0 +1,77 @@
+{
+    "type": "toolbar",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainToolbar",
+        "designer|userAlias": "maintoolbar",
+        "designer|displayName": "Main Toolbar"
+    },
+    "id": "ExtBox1-ext-gen15512",
+    "designerId": "48c518e1-a01f-417c-93cb-5edc1538ff39",
+    "cn": [
+        {
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "designer|userClassName": "MyButton",
+                "minWidth": 50,
+                "text": "File"
+            },
+            "designerId": "ba716fef-9ae7-4237-afd8-ba584a13b8b1"
+        },
+        {
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "designer|userClassName": "MyButton",
+                "minWidth": 50,
+                "text": "Edit"
+            },
+            "designerId": "e3cd6aaa-c7bc-4b96-9a2c-82989cabe08e"
+        },
+        {
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "designer|userClassName": "MyButton",
+                "minWidth": 50,
+                "text": "Report"
+            },
+            "designerId": "f261fb43-623f-44e0-b622-f6c11f155440"
+        },
+        {
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "designer|userClassName": "MyButton",
+                "minWidth": 50,
+                "text": "Help"
+            },
+            "designerId": "20d10222-ddba-4c96-b26a-2e4ca6734c49"
+        }
+    ]
+}

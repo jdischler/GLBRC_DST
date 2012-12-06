@@ -1,0 +1,148 @@
+{
+    "name": "GLBRC_DST",
+    "settings": {
+        "urlPrefix": "http://10.140.2.137/~jdischler/GLBRC",
+        "spacesToIndent": 4,
+        "exportPath": "/Users/jdischler/Sites/GLBRC",
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": true,
+        "cacheBust": true
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 676,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "1b717556-6050-46ea-ba51-d2549e89bc40": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "268241c6-7366-4843-b2e1-58e4a886b0ab": {
+            "paths": [
+                "metadata/view/InfoToolbar",
+                "app/view/override/InfoToolbar.js",
+                "app/view/InfoToolbar.js"
+            ],
+            "className": "InfoToolbar"
+        },
+        "18e2e0ff-ef17-4af3-95cf-d7139eaf915b": {
+            "paths": [
+                "metadata/view/MainViewport",
+                "app/view/override/MainViewport.js",
+                "app/view/MainViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MainViewport"
+        },
+        "48c518e1-a01f-417c-93cb-5edc1538ff39": {
+            "paths": [
+                "metadata/view/MainToolbar",
+                "app/view/override/MainToolbar.js",
+                "app/view/MainToolbar.js"
+            ],
+            "className": "MainToolbar"
+        },
+        "2b3c287c-c24d-405c-a81b-add5fd810c4c": {
+            "paths": [
+                "metadata/view/SelectionTools",
+                "app/view/override/SelectionTools.js",
+                "app/view/SelectionTools.js"
+            ],
+            "className": "SelectionTools"
+        },
+        "5e3bc601-5684-4f81-929e-9bb70e27ac4e": {
+            "paths": [
+                "metadata/view/ViewTools",
+                "app/view/override/ViewTools.js",
+                "app/view/ViewTools.js"
+            ],
+            "className": "ViewTools"
+        },
+        "a90efc77-cb10-42f9-b2a8-f23184b0f91b": {
+            "paths": [
+                "metadata/store/store1",
+                "app/store/override/store1.js",
+                "app/store/store1.js"
+            ],
+            "className": "store1"
+        },
+        "b0f90634-b08e-4c36-b0e7-5024e95d08d9": {
+            "paths": [
+                "metadata/view/TransformationTools",
+                "app/view/override/TransformationTools.js",
+                "app/view/TransformationTools.js"
+            ],
+            "className": "TransformationTools"
+        },
+        "13dd80e3-8d37-427b-bcfe-b2a9d4f1d339": {
+            "paths": [
+                "metadata/view/ManagementTools",
+                "app/view/override/ManagementTools.js",
+                "app/view/ManagementTools.js"
+            ],
+            "className": "ManagementTools"
+        },
+        "399da94d-dfef-4ef1-8ff1-0e488d0fcf78": {
+            "paths": [
+                "metadata/view/EvaluationTools",
+                "app/view/override/EvaluationTools.js",
+                "app/view/EvaluationTools.js"
+            ],
+            "className": "EvaluationTools"
+        },
+        "17d6486d-6a17-4d77-9dce-9eebfa270184": {
+            "paths": [
+                "metadata/view/GraphTools",
+                "app/view/override/GraphTools.js",
+                "app/view/GraphTools.js"
+            ],
+            "className": "GraphTools"
+        },
+        "24588254-64b7-4a0b-9ecf-dc6a8491a482": {
+            "paths": [
+                "metadata/store/landCoverTypes",
+                "app/store/override/landCoverTypes.js",
+                "app/store/landCoverTypes.js"
+            ],
+            "className": "landCoverTypes"
+        },
+        "7464d075-d704-40a0-a5aa-7135f63347d6": {
+            "paths": [
+                "metadata/store/selectionModification",
+                "app/store/override/selectionModification.js",
+                "app/store/selectionModification.js"
+            ],
+            "className": "selectionModification"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "268241c6-7366-4843-b2e1-58e4a886b0ab",
+            "18e2e0ff-ef17-4af3-95cf-d7139eaf915b",
+            "48c518e1-a01f-417c-93cb-5edc1538ff39",
+            "2b3c287c-c24d-405c-a81b-add5fd810c4c",
+            "5e3bc601-5684-4f81-929e-9bb70e27ac4e",
+            "b0f90634-b08e-4c36-b0e7-5024e95d08d9",
+            "13dd80e3-8d37-427b-bcfe-b2a9d4f1d339",
+            "399da94d-dfef-4ef1-8ff1-0e488d0fcf78",
+            "17d6486d-6a17-4d77-9dce-9eebfa270184"
+        ],
+        "store": [
+            "a90efc77-cb10-42f9-b2a8-f23184b0f91b",
+            "24588254-64b7-4a0b-9ecf-dc6a8491a482",
+            "7464d075-d704-40a0-a5aa-7135f63347d6"
+        ],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "1b717556-6050-46ea-ba51-d2549e89bc40"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

@@ -1,0 +1,297 @@
+{
+    "type": "viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainViewport",
+        "designer|initialView": true,
+        "autoScroll": true,
+        "layout": "fit"
+    },
+    "id": "ExtBox1-ext-gen12969",
+    "designerId": "18e2e0ff-ef17-4af3-95cf-d7139eaf915b",
+    "cn": [
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "mainAppPanel",
+                "frame": false,
+                "height": null,
+                "minHeight": 400,
+                "minWidth": 800,
+                "width": null,
+                "autoScroll": true,
+                "layout": "fit",
+                "title": "GLBRC Decision Support Tool v0.1",
+                "titleAlign": "center"
+            },
+            "designerId": "106faca0-2173-489b-ad47-baeb66f6486c",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "bottom",
+                        "weight": null
+                    },
+                    "designerId": "908693ef-6376-43c2-84d3-e7be5cc2fb44",
+                    "masterInstanceId": "ExtBox1-ext-gen2081"
+                },
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "top"
+                    },
+                    "designerId": "4723cc5c-5237-449b-93aa-3e5c8f0f57f8",
+                    "masterInstanceId": "ExtBox1-ext-gen15512"
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "left",
+                        "weight": null,
+                        "container|fill": false,
+                        "container|autoWidth": false,
+                        "designer|userClassName": "MyPanel1",
+                        "designer|displayName": "Left Accordian Container",
+                        "minWidth": null,
+                        "width": 300,
+                        "autoScroll": true,
+                        "layout": "accordion",
+                        "collapseDirection": "left",
+                        "collapsible": true,
+                        "frameHeader": false,
+                        "manageHeight": false,
+                        "title": null
+                    },
+                    "designerId": "c0a9156f-38d4-4eaf-8c22-552f17ef4eb7",
+                    "cn": [
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "maxHeight": null
+                            },
+                            "designerId": "d9d44218-c7b7-4899-9d7b-1f91dc01afd2",
+                            "masterInstanceId": "ExtBox1-ext-gen5305"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "collapsed": false
+                            },
+                            "designerId": "41931bb9-e4d5-424e-8286-3b25b32e84d6",
+                            "masterInstanceId": "ExtBox1-ext-gen20105"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "ceb28127-8b6d-45b9-84d8-3ec837d4beb0",
+                            "masterInstanceId": "ExtBox1-ext-gen11310"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "4daa6177-a654-4c1d-b06f-1c37ce86fa4b",
+                            "masterInstanceId": "ExtBox1-ext-gen34745"
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "right",
+                        "container|fill": false,
+                        "container|autoWidth": false,
+                        "designer|userClassName": "MyPanel12",
+                        "designer|displayName": "Right Accordian Panel",
+                        "width": 300,
+                        "autoScroll": true,
+                        "layout": "accordion",
+                        "collapseDirection": "right",
+                        "collapsible": true,
+                        "frameHeader": false,
+                        "manageHeight": false,
+                        "title": null
+                    },
+                    "designerId": "1d7aa99d-1244-40e3-9e12-eeb8fcd7d2ed",
+                    "cn": [
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "7bbd2757-2fc8-4fba-b638-616eb7400f03",
+                            "masterInstanceId": "ExtBox1-ext-gen45237"
+                        },
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "033a7a4a-050b-4412-9e85-ba3d3935ea76",
+                            "masterInstanceId": "ExtBox1-ext-gen53833"
+                        },
+                        {
+                            "type": "tabpanel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyTabPanel6",
+                                "height": 300,
+                                "width": 300,
+                                "title": "Summary Tools",
+                                "titleAlign": "center",
+                                "activeTab": 0
+                            },
+                            "designerId": "4673e72a-f15b-4a01-86e7-fff81e38bcf9",
+                            "cn": [
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyPanel17",
+                                        "height": 300,
+                                        "width": 300,
+                                        "title": "Report"
+                                    },
+                                    "designerId": "1d4b844e-fca2-43f6-9843-33189dba61af",
+                                    "cn": [
+                                        {
+                                            "type": "tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "TabConfig13"
+                                            },
+                                            "designerId": "ac00f84a-9451-45ac-8cc4-ee25f9d0538b"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyPanel18",
+                                        "height": 300,
+                                        "width": 300,
+                                        "title": "Options"
+                                    },
+                                    "designerId": "3e7be721-e59c-48e0-8d09-a95dc86748a0",
+                                    "cn": [
+                                        {
+                                            "type": "tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "TabConfig14"
+                                            },
+                                            "designerId": "3096fbaf-61d3-490c-9aa4-e201e59a02d9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel11",
+                        "autoScroll": true,
+                        "title": "Landscape Viewer",
+                        "titleAlign": "center"
+                    },
+                    "designerId": "aac2a095-125f-48cf-aa34-6e4d00904f64",
+                    "cn": [
+                        {
+                            "type": "image",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyImg",
+                                "height": 1800,
+                                "width": 1800,
+                                "src": "http://geology.com/satellite/wisconsin-satellite-image-m.jpg"
+                            },
+                            "designerId": "4cb8cdc5-31df-4760-8afe-41d60584f3f8"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

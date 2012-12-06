@@ -1,0 +1,79 @@
+{
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "GraphTools",
+        "designer|userAlias": "graphtools",
+        "height": 300,
+        "width": 300,
+        "title": "Graph Tools",
+        "titleAlign": "center",
+        "activeTab": 0
+    },
+    "id": "ExtBox1-ext-gen53833",
+    "designerId": "17d6486d-6a17-4d77-9dce-9eebfa270184",
+    "cn": [
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel15",
+                "height": 300,
+                "width": 300,
+                "title": "Plots"
+            },
+            "designerId": "b01e17dc-c7d3-4185-9319-8317a31ce8dc",
+            "cn": [
+                {
+                    "type": "tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig11"
+                    },
+                    "designerId": "6d010a43-eff6-4a58-b4b2-3381bd595d98"
+                }
+            ]
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel16",
+                "height": 300,
+                "width": 300,
+                "title": "Weights"
+            },
+            "designerId": "73fede48-4f40-4b2a-8a2b-ff96b79d79d6",
+            "cn": [
+                {
+                    "type": "tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig12"
+                    },
+                    "designerId": "ee7b9312-9eb3-44f7-a953-f17b567c68ef"
+                }
+            ]
+        }
+    ]
+}
